@@ -31,7 +31,7 @@ cmd({
         
         let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *VIDEO DOWNLOADER*
+┃▸┃๏ *DARK SHADOWVIDEO DOWNLOADER*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼
@@ -91,7 +91,7 @@ const yt = await ytsearch(q);
     
     let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *MUSIC DOWNLOADER*
+┃▸┃๏ * DARK SHADOW MUSIC DOWNLOADER*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼
