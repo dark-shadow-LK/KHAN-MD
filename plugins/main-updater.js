@@ -17,7 +17,7 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for KHAN-MD updates...```\n");  
+    await reply("```🔍 Checking for DARK-SHADOW updates...```\n");  
       
     // Get latest commit from GitHub  
     const { data: commitData } = await axios.get("https://api.github.com/repos/DARK-SHADOW-NEW/KHAN-MD/commits/main");  
@@ -33,10 +33,10 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your KHAN-MD bot is already up-to-date!```\n");  
+      return reply("```✅ Your DARK-SHADOW bot is already up-to-date!```\n");  
     }  
 
-    await reply("```KHAN-MD Bot Updating...🚀```\n");  
+    await reply("```DARK-SHADOW Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
