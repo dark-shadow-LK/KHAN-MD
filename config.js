@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY DARK-SHADO
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
+BOT_NAME: process.env.BOT_NAME || "DARK SHADOW-MD",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "DARK-SHADOW-MD",
 // type sticker pack name 
