@@ -247,7 +247,7 @@ const port = process.env.PORT || 9090;
     
   if(senderNumber.includes("94773416478")){
   if(isReact) return
-  m.react("")
+  m.react("👨‍💻")
    }
   //==========public react============//
   // Auto React 
@@ -768,7 +768,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("KHAN MD STARTED ✅");
+  res.send("DARK SHADOW MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
