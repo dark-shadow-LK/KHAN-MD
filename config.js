@@ -31,7 +31,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "94773416478",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "DARK SHADOW",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK SHADOW*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ᴍᴅ*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/1ece2e0281513c05d20ee.jpg",
 // add img for alive msg
