@@ -1,4 +1,4 @@
-// code by ⿻ ⌜ 𝐊𝐇𝐀𝐍 ⌟⿻⃮͛🇵🇰𖤐
+// code by ⿻ ⌜shadow ⌟⿻⃮͛🇵🇰𖤐
 
 const axios = require("axios");
 const config = require('../config');
@@ -31,14 +31,14 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By JawadTechX*",
+      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By Dark Shadow*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363354023106228@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363409414874042@newsletter',
+          newsletterName: "DARK SHADOW",
           serverMessageId: 143,
         },
       },
@@ -51,4 +51,4 @@ async (conn, mek, m, {
   }
 });
 
-// ⿻ ⌜ 𝐊𝐇𝐀𝐍 ⌟⿻⃮͛🇵🇰𖤐
+// ⿻ ⌜ shadow ⌟⿻⃮͛🇵🇰𖤐
