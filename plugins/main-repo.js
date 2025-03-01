@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/JawadYTX/KHAN-MD';
+    const githubRepoURL = 'https://github.com/addddfg-MD';
 
     try {
         // Extract username and repo name from the URL
@@ -31,15 +31,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/juroe8.jpg` },
+            image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterJid: '120363409414874042@newsletter',
+                    newsletterName: 'DARK SHADOW',
                     serverMessageId: 143
                 }
             }
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://github.com/DARK-SHADOW-NEW/LAKAMD-DATABASE/main/audio/alive.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'JawadTechX',
+                    newsletterJid: '120363409414874042@newsletter',
+                    newsletterName: 'DARK SHADOW',
                     serverMessageId: 143
                 }
             }
