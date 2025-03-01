@@ -14,7 +14,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+        let dec = `╭━━━〔 *DARK SHADOW MD* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ Owner : *DARK SHADOWW OFC*
 ┃★│ Baileys : *Multi Device*
@@ -325,8 +325,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'darkshadow',
+                        newsletterJid: '120363409414874042@newsletter',
+                        newsletterName: 'DARK SHADOW',
                         serverMessageId: 143
                     }
                 }
@@ -336,7 +336,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/DARK-SHADOW-NEW/LAKAMD-DATABASE/blob/main/audio/alive.mp3' },
+            audio: { url: 'https://github.com/DARK-SHADOW-NEW/LAKAMD-DATABASE/main/audio/alive.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
