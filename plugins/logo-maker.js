@@ -18,7 +18,7 @@ cmd({
       return reply("*_Please give me a text._*");
     }
 
-    let responseText = `*🤍 KHAN-MD LOGO MAKER 💫*\n\n`
+    let responseText = `*🤍 DARK SHADOW-MD LOGO MAKER 💫*\n\n`
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n`
     + `*◈ Text:* ${q}\n`
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n\n`
@@ -43,7 +43,7 @@ cmd({
     + `18 ➠ 3D Foil Balloons\n`
     + `19 ➠ 3D Colourful Paint\n`
     + `20 ➠ American Flag 3D\n\n`
-    + `> *© Powered By JawadTechX*`;
+    + `> *© Powered By Dark Shadow*`;
 
     let sentMessage = await conn.sendMessage(from, { text: responseText, mentions: [sender] }, { quoted });
 
@@ -82,7 +82,7 @@ cmd({
 
         if (logoUrls[receivedText]) {
           let response = await fetchJson(`https://api-pink-venom.vercel.app/api/logo?url=${logoUrls[receivedText]}&name=${q}`);
-          await conn.sendMessage(from, { image: { url: response.result.download_url }, caption: "> *© Powered By JawadTechX*" }, { quoted });
+          await conn.sendMessage(from, { image: { url: response.result.download_url }, caption: "> *© Powered By Dark SHADOW*" }, { quoted });
         } else {
           reply("*_Invalid number. Please reply with a valid number._*");
         }
