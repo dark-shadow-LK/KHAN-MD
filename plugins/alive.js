@@ -14,14 +14,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Generate system status message
         const status = `╭━━〔 *DARK-SHADOW-MD* 〕━━┈⊷
-┃◈╭─────────────·๏
+┃◈╭────────────
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ HostName*: ${os.hostname()}
 ┃◈┃• *👨‍💻 Owner*: DARK SHADOW
 ┃◈┃• *🧬 Version*: 3.0.0 BETA
-┃◈└───────────┈⊷
-╰──────────────┈⊷
+┃◈└───────────
+╰──────────────
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ`;
 
         // Send the status message with an image
