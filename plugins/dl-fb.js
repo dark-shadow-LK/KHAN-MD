@@ -31,7 +31,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: videoData.url },
-      caption: `📥 *Downloaded in ${videoData.quality} Quality*\n\n🔗 *Powered By JawadTechX*`
+      caption: `📥 *Downloaded in ${videoData.quality} Quality*\n\n🔗 *Powered By DARK SHADOW MD*`
     }, { quoted: m });
 
   } catch (error) {
