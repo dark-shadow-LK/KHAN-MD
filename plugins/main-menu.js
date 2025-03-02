@@ -16,7 +16,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━━〔 *DARK SHADOW MD* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ Owner : *DARK SHADOWW OFC*
+┃★│ Owner : *Pathum Malsara*
 ┃★│ Baileys : *Multi Device*
 ┃★│ Type : *NodeJs*
 ┃★│ Platform : *Heroku*
@@ -318,7 +318,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` },
+                image: { url: `https://i.ibb.co/3yL2ZL8d/2024-8-23-21h39m1s.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -335,11 +335,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         );
 
         // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/DARK-SHADOW-NEW/LAKAMD-DATABASE/main/audio/alive.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+       
         
     } catch (e) {
         console.log(e);
