@@ -65,11 +65,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         );
 
         // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/DARK-SHADOW-NEW/LAKAMD-DATABASE/main/audio/alive.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+       
         
     } catch (e) {
         console.log(e);
