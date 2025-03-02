@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+        let envSettings = `╭━━━〔 *DARK SHADOW-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -47,15 +47,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/juroe8.jpg' }, // Image URL
+                image: { url: 'https://telegra.ph/file/1ece2e0281513c05d20ee.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: "JawadTechX",
+                        newsletterJid: '120363409414874042@newsletter',
+                        newsletterName: "DARK SHADOW",
                         serverMessageId: 143
                     }
                 }
@@ -64,11 +64,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         );
 
         // Send an audio file
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' }, // Audio URL
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+    
 
     } catch (error) {
         console.log(error);
