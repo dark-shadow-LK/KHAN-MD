@@ -38,7 +38,7 @@ cmd({
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭━━━〔 *TWITTER DOWNLOADER* 〕━━━⊷\n`
+    const caption = `╭━━━〔 *DARk SHADOW TWITTER DOWNLOADER* 〕━━━⊷\n`
       + `┃▸ *Description:* ${desc || "No description"}\n`
       + `╰━━━⪼\n\n`
       + `📹 *Download Options:*\n`
@@ -152,14 +152,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 * DARK SHADOW APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 * DARK SHADOW APK DOWNLODER* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By KhanX-AI*`;
+🔗 > *𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗗𝗔𝗥𝗞 𝗦𝗛𝗔𝗗𝗢𝗪 𝗠𝗗 𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗕𝗬 𝗣𝗔𝗧𝗛𝗨𝗠 𝗠𝗔𝗟𝗦𝗔𝗥𝗔©*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -210,7 +210,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By JawadTechX*"
+        caption: "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
