@@ -6,7 +6,7 @@ const { ytsearch, ytmp3, ytmp4 } = require('@dark-yasiya/yt-dl.js');
 
 cmd({ 
     pattern: "mp4", 
-    alias: ["video", "song"], 
+    alias: ["video"], 
     react: "🎥", 
     desc: "Download Youtube song", 
     category: "main", 
@@ -29,9 +29,9 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *DARK SHADOW-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ *DARK SHADOWVIDEO DOWNLOADER*
+┃▸┃๏ *VIDEO DOWNLOADER*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼
@@ -53,7 +53,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
+            caption: `> *${yts.title}*\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ♡*`
         }, { quoted: mek });
 
     } catch (e) {
@@ -66,7 +66,7 @@ cmd({
 
 cmd({ 
      pattern: "mp3", 
-     alias: ["ytdl3", "play"], 
+     alias: ["ytdl3", "play,song"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
@@ -89,9 +89,9 @@ const yt = await ytsearch(q);
         return reply("Failed to fetch the audio. Please try again later.");
     }
     
-    let ytmsg = `╭━━━〔 *KHAN-MD* 〕━━━┈⊷
+    let ytmsg = `╭━━━〔 *DARK SHADOW-MD* 〕━━━┈⊷
 ┃▸╭───────────
-┃▸┃๏ * DARK SHADOW MUSIC DOWNLOADER*
+┃▸┃๏ *MUSIC DOWNLOADER*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━❐━⪼
@@ -101,7 +101,7 @@ const yt = await ytsearch(q);
 ┇๏ *Author* -  ${yts.author.name} 
 ┇๏ *Link* -  ${yts.url}
 ╰━━❑━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`;
+> *© Pᴏᴡᴇʀᴇᴅ Bʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ♡*`;
 
 
 
@@ -116,7 +116,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*`
+        caption: `> *© Pᴏᴡᴇʀᴇᴅ Bʏ ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ♡*`
     }, { quoted: mek });
 
 } catch (e) {
