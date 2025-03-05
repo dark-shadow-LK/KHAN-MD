@@ -45,17 +45,17 @@ cmd({
       ago: "Unknown"
     };
 
-    const caption = `╭━━━〔 *YT DOWNLOADER* 〕━━━⊷\n`
-      + `┃ 📌 *Title:* ${ytData.title}\n`
+    const caption = `*🎥DARK-SHADOW YT DOWNLOADER🎥*\n`
+      + `┃ 🗒️ *Title:* ${ytData.title}\n`
       + `┃ 🎭 *Channel:* ${ytData.author.name || "Unknown"}\n`
       + `┃ 👁‍🗨 *Views:* ${ytData.views}\n`
       + `┃ 🕒 *Uploaded:* ${ytData.ago}\n`
       + `┃ ⏳ *Duration:* ${ytData.timestamp}\n`
       + `╰━━━━━━━━━━━━━━━⪼\n\n`
-      + `🎬 *Download Options:*\n`
-      + `1️⃣  *Video*\n`
-      + `2️⃣  *Document*\n`
-      + `3️⃣  *Audio*\n\n`
+      + `🔢 *Select Number Download Options:*\n`
+      + `*1* *Video🎬*\n`
+      + `*2*  *Document📂*\n`
+      + `*3*  *Audio🎶*\n\n`
       + `📌 *Reply with the number to download in your choice.*`;
 
     const sentMsg = await conn.sendMessage(from, {
@@ -67,7 +67,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363354023106228@newsletter",
-          newsletterName: "JawadTechX",
+          newsletterName: "DARK SHADOW",
           serverMessageId: 143
         }
       }
@@ -92,7 +92,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "Powered By JawadTechX 💜"
+              caption: "*Powered By  ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ᴍᴅ*"
             }, { quoted: receivedMsg });
             break;
 
@@ -101,7 +101,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "Powered By JawadTechX 💜"
+              caption: "*Powered By  ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ᴍᴅ*"
             }, { quoted: receivedMsg });
             break;
 
